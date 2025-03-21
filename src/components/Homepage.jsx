@@ -61,12 +61,12 @@ const HomePage = () => {
 
 const advantages = [
   {
-    title: "Enhanced Security",
+    title: "Enhanced Security Only Uses Metamask Wallet",
     description: "Multi-layered authentication reduces the risk of breaches.",
     image: "https://media.istockphoto.com/id/1663987142/photo/otp-one-time-password-security-authentication.jpg?s=612x612&w=0&k=20&c=-8Zui3UnDVcA2xYawhWrDr3ZkpXbJ25grvo7FFn_XU4=",
   },
   {
-    title: "Privacy Protection",
+    title: "Privacy Protection ",
     description: "No centralized authority storing your sensitive data.",
     image: "https://media.istockphoto.com/id/1350595566/photo/cyber-security-firewall-interface-protection-concept-businesswoman-protecting-herself-from.jpg?s=612x612&w=0&k=20&c=9i4-mWszc5FRU_iaI3ISHkmJKHn1ZCfhWjechO4H9NY=",
   },
