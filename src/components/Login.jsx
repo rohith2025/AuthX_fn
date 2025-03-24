@@ -18,7 +18,7 @@ const Login = () => {
 
   const onLogin = async () => {
     try {
-      const response = await fetch("http://localhost:3000/user/login", {
+      const response = await fetch("https://authx-bn.onrender.com/user/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ username: userID, password, metamaskcode: metamaskCode }),

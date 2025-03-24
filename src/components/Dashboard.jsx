@@ -104,11 +104,11 @@ const Dashboard = () => {
               </p>
             </div>
 
-            <h3 className="text-2xl font-semibold text-gray-900 mb-4 text-center">
+            {/* <h3 className="text-2xl font-semibold text-gray-900 mb-4 text-center">
               Recent Transactions
-            </h3>
+            </h3> */}
 
-            <div className="space-y-3">
+            {/* <div className="space-y-3">
               {transactions.length > 0 ? (
                 transactions.map((txn, index) => (
                   <div key={index} className="bg-gray-100 p-4 rounded-lg shadow-md">
@@ -129,7 +129,7 @@ const Dashboard = () => {
               ) : (
                 <p className="text-gray-500 text-center">No recent transactions found.</p>
               )}
-            </div>
+            </div> */}
 
             {/* Logout Button */}
             <button

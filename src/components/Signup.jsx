@@ -14,7 +14,7 @@ const Signup = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch("http://localhost:3000/user/signup", {
+      const response = await fetch("https://authx-bn.onrender.com/user/signup", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ username, password, metamaskcode }), // Matching backend keys
@@ -24,6 +24,9 @@ const Signup = () => {
 
       if (response.status === 200) {
         setMessage("User created successfully!");
+        setUsername("")
+        setPassword("")
+        setMetamaskcode("")
         setTimeout(() => navigate("/login"), 2000);
       } else {
         setMessage(data.Msg || "Signup failed. User may already exist.");
@@ -47,7 +50,7 @@ const Signup = () => {
           <div className="text-center mb-6">
             <h2 className="text-3xl font-bold text-gray-900">Signup</h2>
           </div>
-          {message && <p className="text-center text-red-600 font-semibold">{message}</p>}
+          {message && <p className="text-center text-green-600 font-semibold">{message}</p>}
           <form onSubmit={handleSignup}>
             <div className="mb-4">
               <label className="block text-gray-700 text-sm font-bold mb-2">User ID</label>
