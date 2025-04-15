@@ -10,7 +10,7 @@ export const Hello = () => {
         <p className="text-lg text-blue-700">The Smartest and Secure Way</p>
         <hr className="border-blue-900 my-2" />
         <p className="text-center text-blue-700 text-base">
-          Copyright © 2024 AuthX. All rights reserved
+          Copyright © 2025 AuthX. All rights reserved
         </p>
       </div>
     </footer>

@@ -12,7 +12,7 @@ const Fotter = () => {
             <p className="text-lg text-blue-700">The Smartest and Secure Way</p>
             <hr className="border-blue-900" />
             <p className="text-center text-blue-700 text-base mt-1">
-              Copyright © 2024 AuthX. All rights reserved
+              Copyright © 2025 AuthX. All rights reserved
             </p>
           </div>
         </section>
