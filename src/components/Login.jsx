@@ -14,7 +14,7 @@ const Login = () => {
   const [message, setMessage] = useState("");
   const [isConnected, setIsConnected] = useState(false);
 
-  const navigate = useNavigate(); // Initialize navigate
+  const navigate = useNavigate(); 
 
   const onLogin = async () => {
     try {
@@ -52,7 +52,7 @@ const Login = () => {
             setIsConnected(true);
 
             setTimeout(() => {
-              navigate("/dashboard"); // Redirect to Dashboard after login
+              navigate("/dashboard"); 
             }, 2000);
           } else {
             setMessage("The entered MetaMask ID does not match the connected wallet.");
